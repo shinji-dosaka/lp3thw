@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>フォームに記入する</h1>
+
+<form action="/hello" method="POST">
+    挨拶: <input type="text" name="greet">
+    <br/>
+    名前: <input type="text" name="name">
+    <br/>
+    <input type="submit">
+</form>
+
+{% endblock %}
