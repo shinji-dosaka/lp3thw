@@ -25,13 +25,13 @@
 
 ### エクササイズ4: 変数
 
-[ex4.sh](code/ex4/ex4.sh) /
-[ex4.py](code/ex4/ex4.py)
+[ex4.py](code/ex4/ex4.py) /
+[ex4.sh](code/ex4/ex4.sh)
 
 ### エクササイズ5: さらに変数と出力
 
-[ex5.sh](code/ex5/ex5.sh) /
-[ex5.py](code/ex5/ex5.py)
+[ex5.py](code/ex5/ex5.py) /
+[ex5.sh](code/ex5/ex5.sh)
 
 ### エクササイズ6: 文字列とテキスト
 
@@ -65,13 +65,13 @@
 
 ### エクササイズ12: ユーザーにプロンプトを表示する
 
-[ex12.sh](code/ex12/ex12.sh) /
-[ex12.py](code/ex12/ex12.py)
+[ex12.py](code/ex12/ex12.py) /
+[ex12.sh](code/ex12/ex12.sh)
 
 ### エクササイズ13: 引数、アンパック、変数
 
-[ex13.sh](code/ex13/ex13.sh) /
-[ex13.py](code/ex13/ex13.py)
+[ex13.py](code/ex13/ex13.py) /
+[ex13.sh](code/ex13/ex13.sh)
 
 ### エクササイズ14: プロンプトに変数を使う
 
@@ -119,6 +119,8 @@
 
 ### エクササイズ22: これまでに何を学んできたか？
 
+なし
+
 ### エクササイズ23: 文字列、バイト、エンコーディング
 
 [languages.txt](code/ex23/languages.txt) /
@@ -142,6 +144,8 @@
 [ex26.py](code/ex26/ex26.py)
 
 ### エクササイズ27: 論理式を暗記する
+
+なし
 
 ### エクササイズ28: ブール式の特訓
 
@@ -184,7 +188,11 @@
 
 ### エクササイズ36: コード設計とデバッグ
 
+なし
+
 ### エクササイズ37: Pythonの用語を復習する
+
+なし
 
 ### エクササイズ38: リストを使う
 
@@ -195,8 +203,8 @@
 ### エクササイズ39: 辞書、なんて便利な辞書
 
 [ex39a.py](code/ex39/ex39a.py) /
-[ex39.sh](code/ex39/ex39.sh) /
-[ex39.py](code/ex39/ex39.py)
+[ex39.py](code/ex39/ex39.py) /
+[ex39.sh](code/ex39/ex39.sh)
 
 ### エクササイズ40: モジュール、クラス、オブジェクト
 
@@ -204,7 +212,6 @@
 [mystuff.py](code/ex40/mystuff.py) /
 [ex40b.py](code/ex40/ex40b.py) /
 [ex40c.py](code/ex40/ex40c.py) /
-
 [ex40.py](code/ex40/ex40.py) /
 [ex40.sh](code/ex40/ex40.sh)
 
@@ -228,26 +235,23 @@
 
 [ex44a.py](code/ex44/ex44a.py) /
 [ex44a.sh](code/ex44/ex44a.sh) /
-
 [ex44b.py](code/ex44/ex44b.py) /
 [ex44b.sh](code/ex44/ex44b.sh) /
-
 [ex44c.py](code/ex44/ex44c.py) /
 [ex44c.sh](code/ex44/ex44c.sh) /
-
 [ex44d.py](code/ex44/ex44d.py) /
 [ex44d.sh](code/ex44/ex44d.sh) /
-
 [ex44e.py](code/ex44/ex44e.py) /
 [ex44e.sh](code/ex44/ex44e.sh)
 
 ### エクササイズ45: 君自身のゲームを作ろう
 
+なし
+
 ### エクササイズ46: プロジェクトの雛形
 
 [ex46.sh](code/ex46/ex46.sh) /
 [ex46.ps1](code/ex46/ex46.ps1) /
-
 [setup.py](code/ex46/skeleton/setup.py) /
 [test_NAME.py](code/ex46/skeleton/tests/test_NAME.py)
 
@@ -274,34 +278,26 @@
 
 [ex50.sh](code/ex50/ex50.sh) /
 [ex50.ps1](code/ex50/ex50.ps1) /
-
 [app.py](code/ex50/projects/gothonweb1/app.py) /
-
 [app.py](code/ex50/projects/gothonweb2/app.py) /
 [index.html](code/ex50/projects/gothonweb2/templates/index.html)
 
 ### エクササイズ51: ブラウザから入力を取得する
 
 [app.py](code/ex51/projects/gothonweb3/app.py) /
-
 [app.py](code/ex51/projects/gothonweb4/app.py) /
-
 [hello_form.html](code/ex51/projects/gothonweb5/templates/hello_form.html) /
 [app.py](code/ex51/projects/gothonweb5/app.py) /
-
 [index.html](code/ex51/projects/gothonweb6/templates/index.html) /
 [hello_form.html](code/ex51/projects/gothonweb6/templates/hello_form.html) /
 [layout.html](code/ex51/projects/gothonweb6/templates/layout.html) /
-
 [test_app.py](code/ex51/projects/gothonweb6/tests/test_app.py) /
-
 [ex51.sh](code/ex51/ex51.sh)
 
 ### エクササイズ52: Web版ゲームアプリケーションを始めよう
 
 [planisphere.py](code/ex52/projects/gothonweb/gothonweb/planisphere.py) /
 [test_planisphere.py](code/ex52/projects/gothonweb/tests/test_planisphere.py) /
-
 [app.py](code/ex52/projects/gothonweb/app.py) /
 [show_room.html](code/ex52/projects/gothonweb/templates/show_room.html) /
 [you_died.html](code/ex52/projects/gothonweb/templates/you_died.html)
@@ -310,5 +306,3 @@
 
 [exa.sh](code/exa.sh) /
 [exa.ps1](code/exa.ps1)
-
-
