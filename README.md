@@ -1,6 +1,5 @@
 
-# Learn Python 3 the Hard Way 書いて覚えるPython入門
-# サポートページ
+# Learn Python 3 the Hard Way 書いて覚えるPython入門 <br> サポートページ
 
 ## コードとコマンド
 
@@ -204,7 +203,7 @@
 [ex40a.py](code/ex40/ex40a.py) /
 [mystuff.py](code/ex40/mystuff.py) /
 [ex40b.py](code/ex40/ex40b.py) /
-[ex40c.py](code/ex40/ex40c.py) <br>
+[ex40c.py](code/ex40/ex40c.py) /
 
 [ex40.py](code/ex40/ex40.py) /
 [ex40.sh](code/ex40/ex40.sh)
@@ -228,26 +227,26 @@
 ### エクササイズ44: 継承とコンポジション
 
 [ex44a.py](code/ex44/ex44a.py) /
-[ex44a.sh](code/ex44/ex44a.sh) <br>
+[ex44a.sh](code/ex44/ex44a.sh) /
 
 [ex44b.py](code/ex44/ex44b.py) /
-[ex44b.sh](code/ex44/ex44b.sh) <br>
+[ex44b.sh](code/ex44/ex44b.sh) /
 
 [ex44c.py](code/ex44/ex44c.py) /
-[ex44c.sh](code/ex44/ex44c.sh) <br>
+[ex44c.sh](code/ex44/ex44c.sh) /
 
 [ex44d.py](code/ex44/ex44d.py) /
-[ex44d.sh](code/ex44/ex44d.sh) <br>
+[ex44d.sh](code/ex44/ex44d.sh) /
 
 [ex44e.py](code/ex44/ex44e.py) /
-[ex44e.sh](code/ex44/ex44e.sh) <br>
+[ex44e.sh](code/ex44/ex44e.sh)
 
 ### エクササイズ45: 君自身のゲームを作ろう
 
 ### エクササイズ46: プロジェクトの雛形
 
 [ex46.sh](code/ex46/ex46.sh) /
-[ex46.ps1](code/ex46/ex46.ps1) <br>
+[ex46.ps1](code/ex46/ex46.ps1) /
 
 [setup.py](code/ex46/skeleton/setup.py) /
 [test_NAME.py](code/ex46/skeleton/tests/test_NAME.py)
@@ -274,34 +273,34 @@
 ### エクササイズ50: はじめてのWebアプリケーション
 
 [ex50.sh](code/ex50/ex50.sh) /
-[ex50.ps1](code/ex50/ex50.ps1) <br>
+[ex50.ps1](code/ex50/ex50.ps1) /
 
-[app.py](code/ex50/projects/gothonweb1/app.py) <br>
+[app.py](code/ex50/projects/gothonweb1/app.py) /
 
 [app.py](code/ex50/projects/gothonweb2/app.py) /
 [index.html](code/ex50/projects/gothonweb2/templates/index.html)
 
 ### エクササイズ51: ブラウザから入力を取得する
 
-[app.py](code/ex51/projects/gothonweb3/app.py) <br>
+[app.py](code/ex51/projects/gothonweb3/app.py) /
 
-[app.py](code/ex51/projects/gothonweb4/app.py) <br>
+[app.py](code/ex51/projects/gothonweb4/app.py) /
 
 [hello_form.html](code/ex51/projects/gothonweb5/templates/hello_form.html) /
-[app.py](code/ex51/projects/gothonweb5/app.py) <br>
+[app.py](code/ex51/projects/gothonweb5/app.py) /
 
 [index.html](code/ex51/projects/gothonweb6/templates/index.html) /
 [hello_form.html](code/ex51/projects/gothonweb6/templates/hello_form.html) /
-[layout.html](code/ex51/projects/gothonweb6/templates/layout.html)  <br>
+[layout.html](code/ex51/projects/gothonweb6/templates/layout.html) /
 
-[test_app.py](code/ex51/projects/gothonweb6/tests/test_app.py) <br>
+[test_app.py](code/ex51/projects/gothonweb6/tests/test_app.py) /
 
 [ex51.sh](code/ex51/ex51.sh)
 
 ### エクササイズ52: Web版ゲームアプリケーションを始めよう
 
 [planisphere.py](code/ex52/projects/gothonweb/gothonweb/planisphere.py) /
-[test_planisphere.py](code/ex52/projects/gothonweb/tests/test_planisphere.py) <br>
+[test_planisphere.py](code/ex52/projects/gothonweb/tests/test_planisphere.py) /
 
 [app.py](code/ex52/projects/gothonweb/app.py) /
 [show_room.html](code/ex52/projects/gothonweb/templates/show_room.html) /
