@@ -141,7 +141,7 @@
 ### エクササイズ26: おめでとう、中間テストだ！
 
 [exercise26.txt](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex26/exercise26.txt) /
-[ex26.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex26/ex26.py)
+[ex26.py(参考)](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex26/ex26.py)
 
 ### エクササイズ27: 論理式を暗記する
 
@@ -263,16 +263,17 @@
 
 ### エクササイズ48: 高度な入力
 
-[ex48a.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex48a.py) /
-[ex48b.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex48b.py) /
-[test_lexicon.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/tests/test_lexicon.py) /
-[lexicon.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex48/lexicon.py)
+[ex48a.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48/ex48a.py) /
+[ex48b.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48/ex48b.py) /
+[test_lexicon.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48/tests/test_lexicon.py) /
+[lexicon.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48/ex48/lexicon.py)
 
 ### エクササイズ49: 文を組み立てる
 
-[ex49a.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex49a.py) /
-[parser.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex48/parser.py) /
-[ex49b.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex48-49/ex49b.py)
+[ex49a.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex49/ex49a.py) /
+[parser.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex49/ex48/parser.py) /
+[ex49b.py](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex49/ex49b.py) /
+[test_parser.py(参考)](https://raw.githubusercontent.com/shinji-dosaka/lp3thw/master/code/ex49/tests/test_parser.py)
 
 ### エクササイズ50: はじめてのWebアプリケーション
 
