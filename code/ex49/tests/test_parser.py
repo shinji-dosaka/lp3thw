@@ -1,24 +1,84 @@
-from ex48 import lexicon, parser
+import pytest
+from ex48 import parser
 
-def test_subject():
-    s1 = parser.Sentence(('noun', 'cheese'),
-                         ('verb', 'eats'),
-                         ('noun', 'pigeon'))
-    assert s1.verb == 'eats'
-    assert s1.subject == 'cheese'
-    assert s1.object == 'pigeon'
+def test_sentence():
+    s = parser.Sentence(('noun', 'bear'),
+                         ('verb', 'eat'),
+                         ('noun', 'honey'))
+    assert s.subject == 'bear'
+    assert s.verb == 'eat'
+    assert s.object == 'honey'
 
-def test_peek():
-    word_list = []
-    assert None == parser.peek(word_list)
+def test_peeks():
+    assert parser.peek([]) is None
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('noun', 'honey')]
+    assert parser.peek(word_list) == 'noun'
 
-    word_list = lexicon.scan('princess kill bear')
-    assert 'noun' == parser.peek(word_list)
+def test_matches():
+    assert parser.match([], 'noun') is None
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('noun', 'honey')]
+    assert parser.match(word_list, 'noun') == ('noun', 'bear')
 
-def test_match():
-    word_list = []
-    assert None == parser.match(word_list, 'noun')
+def test_skip():
+    word_list = [('stop', 'in'),
+                 ('stop', 'the'),
+                 ('noun', 'cabinet')]
+    parser.skip(word_list, 'stop')
+    assert word_list == [('noun', 'cabinet')]
 
-    word_list = lexicon.scan('bear eat princess')
-    assert ('noun', 'bear') == parser.match(word_list, 'noun')
-    assert None == parser.match(word_list, 'noun')
+def test_perse_verb():
+    word_list = [('verb', 'eat'),
+                 ('noun', 'honey')]
+    assert parser.parse_verb(word_list) == ('verb', 'eat')
+
+def test_perse_verb_errors():
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('noun', 'honey')]
+    pytest.raises(parser.ParserError, parser.parse_verb, word_list)
+
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('noun', 'honey')]
+    with pytest.raises(parser.ParserError):
+        parser.parse_verb(word_list)
+
+def test_parse_objects():
+    word_list = [('stop', 'the'),
+                 ('noun', 'bear')]
+    assert parser.parse_object(word_list) == ('noun', 'bear')
+
+    word_list = [('stop', 'from'),
+                 ('direction', 'north')]
+    assert parser.parse_object(word_list) == ('direction', 'north')
+
+def test_parse_subjects():
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('noun', 'honey')]
+    assert parser.parse_subject(word_list) == ('noun', 'bear')
+
+    word_list = [('verb', 'run'),
+                 ('direction', 'north')]
+    assert parser.parse_subject(word_list) == ('noun', 'player')
+
+def test_parse_sentences():
+    word_list = [('noun', 'bear'),
+                 ('verb', 'eat'),
+                 ('stop', 'the'),
+                 ('noun', 'honey')]
+    s = parser.parse_sentence(word_list)
+    assert s.subject == 'bear'
+    assert s.verb == 'eat'
+    assert s.object == 'honey'
+
+    word_list = [('verb', 'run'),
+                 ('direction', 'north')]
+    s = parser.parse_sentence(word_list)
+    assert s.subject == 'player'
+    assert s.verb == 'run'
+    assert s.object == 'north'
